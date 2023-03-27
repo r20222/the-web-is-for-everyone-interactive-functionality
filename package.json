@@ -6,8 +6,11 @@
   "directories": {
     "doc": "docs"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +23,7 @@
     "for",
     "everyone"
   ],
-  "author": "Roelie",
+  "author": "r20222",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/r20222/the-web-is-for-everyone-interactive-functionality/issues"
@@ -30,5 +33,8 @@
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   }
 }
