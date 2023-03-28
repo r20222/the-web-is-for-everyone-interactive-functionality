@@ -1,11 +1,26 @@
 <%- include('./partials/head.ejs') %>
 
 
-<h1>hello there test</h1>
+<h1>Welkom Pepijn!</h1>
+
+<ul class="back-next-container">
+    <li><span class="back">&#10094;</span></li>
+    <li><span class="next">&#10095;</span></li>
+</ul>  
+
 
 <% notities.forEach(notitie => { %>
-    <h2><%= notitie.titel %></h2>
+     
+    <article class="notitie-container notitie-slider">
+    
+        <h2>Notities  <span class="datum"><%= notitie.datum %></span></h2>
+        <h3><%= notitie.titel %></h3>
+        <p><%= notitie.beschrijving %></p>
+   
+    </article>
 <% }); %>
+
+
 
 
 <form action="/" method="post">
@@ -21,7 +36,7 @@
 
         <!-- BESCHRIJVING -->
         <label for="beschrijving">Notitie</label>
-        <textarea id="beschrijving" name="beschrijving" placeholder="Vul hier jouw notitie in"></textarea>
+        <textarea id="beschrijving" name="beschrijving" placeholder="Vul hier jouw notitie in" required></textarea>
     
         <label for="herinnering">herinnering<span>(verplicht)</span></label>
         <input name="herinnering" id="herinnering" type="datetime-local" required>

@@ -113,8 +113,39 @@ nav span{
     cursor: pointer;
 }
 
+/* welkomst bericht */
 
+h1{
+    margin: 1rem;
+}
 
+/* notitie cotainer */
+
+.notitie-container{
+    background-color: var(--Ei);
+    border-radius: 10px;
+    height:20rem;
+    padding: 1rem 3rem;
+    margin:1rem;
+}
+h3{
+    margin-top:2rem;
+}
+.back-next-container{
+    position:absolute;
+    list-style: none;
+    width: 80%;
+    padding: 0;
+    margin: 2.5rem 0rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.back, .next{
+    position: absolute;
+    /* margin-left:-1.2rem; */
+    margin-left: 1.8rem;
+    scale: 2;
+}
 
 
 
