@@ -60,3 +60,39 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block";  
   }
+
+
+//   overlay form
+
+const form = document.querySelector('.form-background')
+const buttonAddNote = document.querySelector('.toevoegen-notitie')
+const clickAwayForm = document.querySelector('.click-away-form')
+
+buttonAddNote.addEventListener('click', formOverlay)
+clickAwayForm.addEventListener('click', formAway)
+
+function formOverlay(){
+    form.classList.add('form-notitie-toevoegen')
+}
+
+function formAway(){
+    form.classList.remove('form-notitie-toevoegen')
+}
+
+
+// JavaScript Enabled?
+
+if (typeof window === 'undefined') {
+    document.body.classList.add('js-enabled')
+    console.log('JavaScript is uitgeschakeld');
+  } else {
+    console.log('JavaScript is ingeschakeld');
+  }
+  
+  if (typeof document.addEventListener === 'undefined') {
+    document.body.classList.add('js-enabled')
+    console.log('JavaScript is uitgeschakeld');
+  } else {
+    console.log('JavaScript is ingeschakeld');
+  }
+  

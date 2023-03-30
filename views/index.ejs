@@ -17,13 +17,15 @@
         <h3><%= notitie.titel %></h3>
         <p><%= notitie.beschrijving %></p>
    
+        <button class="toevoegen-notitie">+ Notitie Toevoegen</button>
     </article>
 <% }); %>
 
 
 
-
-<form action="/" method="post">
+<article class="form-background">
+    <button class="click-away-form">+</button>
+<form class="form-notities" action="/" method="post">
     <fieldset>
         <legend>notities</legend>
 
@@ -44,9 +46,9 @@
         <label for="datum">datum<span>(verplicht)</span></label>
         <input name="datum" id="datum" type="datetime-local" required>
 
-    <button type="submit">Versturen</button>
+    <button class="versturen-form" type="submit">Versturen</button>
 </fieldset>
 </form>
-
+</article>
 
 <%- include('./partials/foot.ejs') %>
