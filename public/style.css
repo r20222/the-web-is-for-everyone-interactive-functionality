@@ -196,9 +196,10 @@ fieldset{
 }
 
 
-body.js-enabled .toevoegen-notitie{
+/* body.js-enabled .toevoegen-notitie{ */
     /* werkt voor geen meter :( */
-  }
+    /* display:none; */
+  /* } */
 
 
 
