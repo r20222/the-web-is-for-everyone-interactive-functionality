@@ -82,17 +82,8 @@ function formAway(){
 
 // JavaScript Enabled?
 
-// if (typeof window === 'undefined') {
-//     document.body.classList.add('js-enabled')
-//     console.log('JavaScript is uitgeschakeld');
-//   } else {
-//     console.log('JavaScript is ingeschakeld');
-//   }
-  
-//   if (typeof document.addEventListener === 'undefined') {
-//     document.body.classList.add('js-enabled')
-//     console.log('JavaScript is uitgeschakeld');
-//   } else {
-//     console.log('JavaScript is ingeschakeld');
-//   }
-  
+document.body.classList.add('js-enabled')
+
+
+
+
