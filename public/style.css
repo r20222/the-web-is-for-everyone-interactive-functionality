@@ -381,7 +381,7 @@ body.js-enabled .click-away-form, .click-away-form{
     display: flex;
     max-width:90%;
     margin: auto;
-    box-shadow: 0 0 10px 10px var(--vinimini-pinda-blue);
+    box-shadow: 0 0 5px 5px var(--vinimini-pinda-blue);
     overflow-x: scroll;
     border-radius:10px;
 }
