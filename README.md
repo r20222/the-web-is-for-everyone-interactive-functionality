@@ -15,7 +15,14 @@
 ## Beschrijving
 <!-- In de Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual toe 📸 -->
+
+### Mobile-first
 ![image](https://user-images.githubusercontent.com/101579892/229311985-febf09e7-9292-44c8-85e0-5e0e7cfffae0.png)
+
+### Desktop
+![image](https://user-images.githubusercontent.com/101579892/229796711-c323c3b0-ecbb-45fd-8ed7-7fea0399f995.png)
+
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Gebruik
