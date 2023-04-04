@@ -167,7 +167,7 @@ body.js-enabled .toevoegen-notitie:hover{
 /* notities form */
 
 .form-notities{
-    background-color: var(--vinimini-fish-blue);
+    background-color: var(--vinimini-hazelnut-blue);
     color: var(--vinimini-dark-blue);
     padding: 1rem 1rem;
     margin:1rem;
@@ -187,14 +187,26 @@ body.js-enabled .form-background{
     top:-100vh;
     z-index: 200;
     transition:1s;
-   
 }
 body.js-enabled .form-notitie-toevoegen{
     top:0;
     transition:1s;
 }
 .versturen-form{
-    margin-top:1rem;
+    margin-top:2rem;
+    position: relative;
+    padding:1rem;
+    background-color: white;
+    color: var(--vinimini-dark-blue);
+    border: 1px solid var(--vinimini-dark-blue);
+    border-radius: 50px;
+    bottom: 2rem;
+    cursor: pointer;
+    display:block;
+}
+.versturen-form:hover{
+    background-color:var(--vinimini-dark-blue);
+    color: white;
 }
 
 .click-away-form{
@@ -267,9 +279,19 @@ body.js-enabled .naar-beneden{
 
 footer{
     position: relative;
-    margin-top:5rem;
+    top:8rem;
 }
 
+/* test display js */
+
+.notitie-slider {
+    display: none;
+}
+  
+.notitie-slider.show-slider {
+    display: block;
+}
+  
 
 /* mediaqueries */
 
@@ -287,6 +309,81 @@ nav{
 }
 .vini-mini-logo{
     height: 100px;
+}
+
+/* welkom bericht */
+
+h1{
+    width: 90%;
+    margin: 1rem auto 2rem;
+}
+
+/* notitie container */
+
+.notitie-container{
+    max-width:15rem;
+    display: block;
+}
+.notitie-slider{
+    display: block;
+}
+.toevoegen-notitie{
+    visibility: hidden;
+}
+.naar-beneden{
+    display:none;
+}
+.terug-omhoog{
+    display:none;
+}
+
+.back-next-container{
+    /* position:absolute;
+    left:calc(0rem + 50% - 340px); */
+    /* max-width:18.5rem; */
+    display:none;
+}
+
+/* formulier */
+
+body.js-enabled .form-background, .form-background{
+    background-color: transparent;
+    position:relative;
+    top:0vh;
+    margin: 1rem auto ;
+    height:20rem;
+    width:90%;
+}
+.form-notities{
+    width: 20rem;
+    margin:0rem;
+}
+textarea{
+    margin-bottom: 1rem;
+    height:2rem;
+    border-color:var(--vinimini-dark-blue);
+    border:2px;
+}
+input{
+    margin-bottom: 1rem;
+    height:2rem;
+    border-radius: 10px;
+    border-color:var(--vinimini-dark-blue)
+}
+
+body.js-enabled .click-away-form, .click-away-form{
+    display:none;
+}
+
+
+/* flexbox container JS disabled */
+.flexbox-desktop-container{
+    display: flex;
+    max-width:90%;
+    margin: auto;
+    box-shadow: 0 0 10px 10px var(--vinimini-pinda-blue);
+    overflow-x: scroll;
+    border-radius:10px;
 }
 }
 
