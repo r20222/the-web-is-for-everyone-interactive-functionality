@@ -42,6 +42,7 @@ Zonder JavaScript:
 
 ![image](https://user-images.githubusercontent.com/101579892/229312026-19b09f3d-ecff-475d-be9b-2e8c203682c4.png)
 
+Voor de desktop versie is het de website hetzelfde met als zonder JavaScript, alleen is het menu zonder JavaScript nog niet werkend dus daar moet ik nog iets voor gaan bedenken.
 
 ## Installatie
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
