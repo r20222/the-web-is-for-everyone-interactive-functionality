@@ -74,6 +74,9 @@ Voor de desktop versie is het de website hetzelfde met als zonder JavaScript, al
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
 Mijn project is gemaakt met Node.JS en de ejs framework, daarom is het belangrijk om de node.js te downloaden voordat je aan dit project verder werkt.
+Er is in mijn project een package.json aanwezig.
+Fork deze repo door op fork te drukken.
+Start een locale host op door npm start in te terminal te typen.
 
 ## Bronnen
 
