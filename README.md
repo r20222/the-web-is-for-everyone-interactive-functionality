@@ -14,6 +14,9 @@
 
 ## Beschrijving
 <!-- In de Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
+
+In de persoonlijke omgeving van Pepijn op de Vini Mini website kan je notities toevoegen en notities teruglezen.
+
 <!-- Voeg een mooie poster visual toe 📸 -->
 
 ### Mobile-first
@@ -25,11 +28,34 @@
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
+https://dull-pear-swallow-coat.cyclic.app/ 
+
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 
+Bij dit project heb ik gedacht aan user-story #13: Als ouder wil ik in een dagboek aantekeningen kunnen maken zodat ik niet vergeet wat er is gebeurd.
+Aangezien we notities konden posten heb ik het zo gelaten en er geen dagboek van gemaakt. Nu kan je dus notities lezen en ook posten.
+
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+Bij het maken van deze webpagina heb ik gebruik gemaakt van:
+
+* Node.JS
+* Express
+* Ejs
+* CSS
+* JavaScript
+* Gitignore
+* .env
+
+Dankzij node.js heb ik in de partials map een head.ejs en foot.ejs staan die ik op elke pagina makkelijk kan toevoegen zodat ik mezelf minder hoef te herhalen. 
+In de index.js maak ik gebruik van express om routes te maken zodat ik data kan halen en posten uit en naar de API.
+Waar ik erg blij mee ben dat mij gelukt is te maken is een formulier waarvan de data wordt gepost naar de API.
+In CSS ben ik heel tevreden dat ik een carroussel heb gemaakt ook met behulp van JS.
+In de .gitignore heb ik de node modules toegevoegd want dat is onnodig om allemaal naar github up te loaden.
+Het env bestand was gewoon een test om mee te oefenen maar ik heb er geen belagrijke dingen mee gedaan.
+
 
 ### Wat is Progressive Enhancement?
 
@@ -47,6 +73,7 @@ Voor de desktop versie is het de website hetzelfde met als zonder JavaScript, al
 ## Installatie
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
+Mijn project is gemaakt met Node.JS en de ejs framework, daarom is het belangrijk om de node.js te downloaden voordat je aan dit project verder werkt.
 
 ## Bronnen
 
