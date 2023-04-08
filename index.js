@@ -18,8 +18,6 @@ server.set('views', './views')
 // Stel de public map in
 server.use(express.static('public'))
 
-
-
 // Stel afhandeling van formulieren in
 server.use(express.json())
 server.use(express.urlencoded({ extended: true }))
@@ -49,8 +47,7 @@ server.post('/', function (req, res, next) {
 
     if (data.success) {
       res.redirect('/new') 
-      // TODO: squad meegeven, message meegeven
-      // TODO: Toast meegeven aan de homepagina
+
     } else {
       const errormessage = `${data.message}: Mogelijk komt dit door de slug die al bestaat.`
       const newdata = { error: errormessage, values: newData }
@@ -60,13 +57,6 @@ server.post('/', function (req, res, next) {
   })
 })
   
-
-
-
-
-
-
-
   // definieer de fetchJson functie
   async function fetchJson(url) {
     return await fetch(url)
@@ -79,12 +69,7 @@ server.listen(server.get('port'), () => {
     console.log(`Application started on http://localhost:${server.get('port')}`)
   })
 
-
-
-
-
-
-
+// de functie postJson gedefinieerd
   export async function postJson(url, body) {
     return await fetch(url, {
       method: 'post',

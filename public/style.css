@@ -284,11 +284,11 @@ footer{
 
 /* test display js */
 
-.notitie-slider {
+.js-enabled .notitie-slider {
     display: none;
 }
   
-.notitie-slider.show-slider {
+.js-enabled .notitie-slider.show-slider {
     display: block;
 }
   
